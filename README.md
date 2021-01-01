@@ -111,8 +111,9 @@ import json
 
 ### Create DataStore Object 
 ```python
-db = DataStore('data_store.json') # location is optional
+db = DataStore("C:\\Users\\acer\\Desktop\\data_store.json") # location is optional
 ```
+**Note:** If location is provided then file desired json file must exist there
 
 ### Creating a key value pair
 
