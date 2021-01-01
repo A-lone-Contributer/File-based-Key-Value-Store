@@ -103,23 +103,24 @@ git clone https://github.com/A-lone-Contributer/File-based-Key-Value-Store.git
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-### Import the class
+### Import the DataStore Class and json module
 ```python
 from ds.__init__ import DataStore
+import json
 ```
 
 ### Create DataStore Object 
 ```python
-db = DataStore('./data_store.json') # location is optional
+db = DataStore('data_store.json') # location is optional
 ```
 
 ### Creating a key value pair
 
 ```python
-db.create('Student', {'Name': 'John Doe'})
+db.create('Student', json.dumps({'Name': 'John Doe'}))
 
 # Optional Time-To-Live (TTL) argument 
-db.create('TempStudent', {'Name': 'Steven'}, 2) # this {key:json obj} expires in 2 seconds
+db.create('TempStudent', json.dumps({'Name': 'Steven'}), 2) # this {key:json obj} expires in 2 seconds
 ```
 
 ## Reading the key 
@@ -131,8 +132,6 @@ name = db.read('Student')
 ```python
 db.delete('Student')
 ```
-
-
 
 # Testing
 
