@@ -2,8 +2,6 @@
 
 A Key-Value DataStore that supports CRD operations by creating a local database on the local machine.
 
-<hr>
-
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
@@ -13,6 +11,8 @@ A Key-Value DataStore that supports CRD operations by creating a local database 
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
+* [Testing](#Testing)
+
 
 <hr>
 
