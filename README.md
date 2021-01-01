@@ -186,5 +186,5 @@ Distributed under the Apache-2.0 License. See `LICENSE` for more information.
 
 Nishkarsh Tripathi : nishkarsh78@gmail.com
 
-Project Link : [DFile-based-Key-Value-Store](https://github.com/A-lone-Contributer/File-based-Key-Value-Store)
+Project Link : [File-based-Key-Value-Store](https://github.com/A-lone-Contributer/File-based-Key-Value-Store)
 
